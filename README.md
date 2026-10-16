@@ -18,3 +18,7 @@ Clean-room implementation inspired by the observed behavior of a protected XAUUS
 This EA is a new, independent implementation based on behavioral observations. The exact formulas and internal code of the commercial EX5 could not be recovered. Backtest and forward-test it on demo before any funded account.
 
 The included `.ex5` was compiled with MetaTrader 5 build 6264. The source `.mq5` is included so the binary can be rebuilt.
+
+## Documentation
+
+See [docs/OPERACIONAL.md](docs/OPERACIONAL.md) for the complete operating model, entry and exit rules, ATR logic, risk sizing, drawdown protections, and parameter reference.
